@@ -1,0 +1,23 @@
+.jqmt-multiselect { height: 20px; overflow: hidden; padding:0; text-align:left }
+.jqmt-multiselect span.ui-icon { float:right }
+.jqmt-multiselect-single .jqmt-multiselect-checkboxes input { position:absolute !important; top: auto !important; left:-9999px; }
+.jqmt-multiselect-single .jqmt-multiselect-checkboxes label { padding:5px !important }
+
+.jqmt-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px }
+.jqmt-multiselect-header ul { font-size:0.9em }
+.jqmt-multiselect-header ul li { float:left; padding:0 10px 0 0 }
+.jqmt-multiselect-header a { text-decoration:none }
+.jqmt-multiselect-header a:hover { text-decoration:underline }
+.jqmt-multiselect-header span.ui-icon { float:left }
+.jqmt-multiselect-header li.jqmt-multiselect-close { float:right; text-align:right; padding-right:0 }
+
+.jqmt-multiselect-menu { display:none; padding:3px; position:absolute; z-index:10000; text-align: left }
+.jqmt-multiselect-checkboxes { position:relative /* fixes bug in IE6/7 */; overflow-y:auto }
+.jqmt-multiselect-checkboxes label { cursor:default; display:block; border:1px solid transparent; padding:3px 1px;white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.jqmt-multiselect-checkboxes label input { position:relative; top:1px }
+.jqmt-multiselect-checkboxes li { clear:both; font-size:0.9em; padding-right:3px }
+.jqmt-multiselect-checkboxes li.jqmt-multiselect-optgroup-label { text-align:center; font-weight:bold; border-bottom:1px solid }
+.jqmt-multiselect-checkboxes li.jqmt-multiselect-optgroup-label a { display:block; padding:3px; margin:1px 0; text-decoration:none }
+
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .jqmt-multiselect-checkboxes label { border:none }
